@@ -3,11 +3,11 @@ package com.scoobyTech;
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class Helmetboi
+public class KittyScape
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(KittyScapePlugin.class);
 		RuneLite.main(args);
 	}
 }
